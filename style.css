@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: rgb(22, 22, 22);
+}
+header {
+  background-image: url(https://www.recipetineats.com/uploads/2022/11/Apple-Pie_8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: first baseline;
+  height: 800px;
+  color: white;
+  font-size: medium;
+  font-style: bold;
+  text-align: center;
+}
+
+main {
+  background-image: url(https://as2.ftcdn.net/v2/jpg/06/48/27/37/1000_F_648273734_QTRAmrRaRhRWlri4pMpao135zn3oVZt0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: left;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 500px;
+}
+
+footer {
+  background-image: url(https://jesspryles.com/wp-content/uploads/2021/01/meat-pies-70-scaled.jpg);
+  background-size: cover;
+  align-items: last baseline;
+  justify-content: center;
+  height: 800px;
+  color: white;
+  display: flex;
+  text-align: center;
+  font-size: x-large;
+}
+
+.outsideflex {
+  position: absolute;
+  top: 300px;
+  left: 10px;
+  font-size: x-large;
+}
+
+.insideflex {
+  position: absolute;
+  top: 2000px;
+  left: 10px;
+  font-size: x-large;
+}
+
+.box {
+  background: #eee;
+  padding: 0px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 10px solid black;
+  margin: 10px;
+  padding: 0px;
+}
+
+.align {
+  justify-content: center;
+  text-align: center;
+  color: rgb(16, 3, 3);
+}
+
+nav {
+}
+
+:hover {
+  animation: ;
+}
